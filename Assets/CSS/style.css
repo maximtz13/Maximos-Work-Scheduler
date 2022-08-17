@@ -62,11 +62,42 @@ textarea{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
-  font-size: 140%;
+  font-size: 150%;
   color: white;
 }
 
 .saveBtn:hover > i  {
   font-size: 90%;
   transition: all .05s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px),
+screen and (max-width: 575px) {
+    .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding: 0;
+    text-align: center;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+  }
+
+  textarea {
+    min-height: 85px;
+    border: 0;
+  }
+
+  h1 {
+    display: inline-block;
+    word-break: break-word;
+  }
+  
 }
