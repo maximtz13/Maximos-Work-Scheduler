@@ -31,4 +31,6 @@ function timeTrack() {
     })
 };
 
-
+setInterval(function () {
+    timeTrack();
+}, (1000 * 60) * 10);
